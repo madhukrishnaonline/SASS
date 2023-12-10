@@ -1,0 +1,71 @@
+$colorTheme:"primary";
+
+.container{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+@if $colorTheme=="danger"
+{
+    .container {
+            background-color: rgb(91, 5, 5);
+    
+            h1,
+            p,a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: red;
+            }
+        }
+}
+@else if $colorTheme=="warning"
+{
+    .container {
+        background-color: rgb(171, 171, 49);
+
+        h1,
+        p ,a{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(247, 241, 54);
+        }
+    }
+}
+@else if $colorTheme =="success"
+{
+    .container {
+        background-color: rgb(10, 127, 145);
+
+        h1,
+        p,a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(37, 223, 247);
+        }
+    }
+}
+@else if $colorTheme == "primary"
+{
+    .container {
+        background-color: rgb(155, 153, 182);
+
+        h1,
+        p,a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(47, 13, 156);
+        }
+    }
+}
+@else 
+{
+    .container {
+        background-color: rgb(45, 44, 44);
+
+        h1,
+        p,a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(247, 244, 244);
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.container {
+  border: 20px;
+  box-shadow: 10px 10px 9px rgb(233, 225, 6);
+  box-sizing: border-box;
+  margin: 50px;
+  box-shadow: -10px 10px 9px rgb(99, 95, 95);
+  padding: 20px;
+}
+.container .html {
+  border: 20px;
+  box-shadow: 10px 10px 9px rgb(233, 225, 6);
+  box-sizing: border-box;
+  margin: 50px;
+  box-shadow: -10px 10px 9px rgb(198, 4, 137);
+  padding: 20px;
+  border-radius: 20px;
+}
+.container .css {
+  border: 20px;
+  box-shadow: 10px 10px 9px rgb(233, 225, 6);
+  box-sizing: border-box;
+  margin: 50px;
+  box-shadow: -10px 10px 9px rgb(22, 2, 203);
+  padding: 20px;
+  border-radius: 30px;
+}
+.container .js {
+  border: 20px;
+  box-shadow: 10px 10px 9px rgb(233, 225, 6);
+  box-sizing: border-box;
+  margin: 50px;
+  box-shadow: -10px 10px 9px rgb(7, 229, 73);
+  padding: 20px;
+  border-radius: 40px;
+}
+.container .html:hover {
+  transform: rotatex("180deg");
+  transition: 2ms;
+  background-size: 10px;
+  font-size: 30px;
+}
+
+#ul {
+  list-style: none;
+}
+
+.box-1 {
+  border: 10px double rgb(171, 178, 157);
+  margin-bottom: 10px;
+  padding: 10px;
+  text-shadow: 10px 11px 10px rgb(232, 232, 13);
+}
+
+.box-2 {
+  border: 20px double rgb(171, 178, 157);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-shadow: 10px 12px 10px rgb(232, 232, 13);
+}
+
+.box-3 {
+  border: 30px double rgb(171, 178, 157);
+  margin-bottom: 30px;
+  padding: 30px;
+  text-shadow: 10px 13px 10px rgb(232, 232, 13);
+}
+
+.box-4 {
+  border: 40px double rgb(171, 178, 157);
+  margin-bottom: 40px;
+  padding: 40px;
+  text-shadow: 10px 14px 10px rgb(232, 232, 13);
+}
+
+.box-5 {
+  border: 50px double rgb(171, 178, 157);
+  margin-bottom: 50px;
+  padding: 50px;
+  text-shadow: 10px 15px 10px rgb(232, 232, 13);
+}
+
+.box-6 {
+  border: 60px double rgb(171, 178, 157);
+  margin-bottom: 60px;
+  padding: 60px;
+  text-shadow: 10px 16px 10px rgb(232, 232, 13);
+}
+
+.box-7 {
+  border: 70px double rgb(171, 178, 157);
+  margin-bottom: 70px;
+  padding: 70px;
+  text-shadow: 10px 17px 10px rgb(232, 232, 13);
+}
+
+/*# sourceMappingURL=effects.css.map */
